@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabelas</title>
+</head>
+
+<body>
+  <nav></nav>
+  <div>
+    <h1>Tabelas</h1>
+    <div>
+      <h2>Tabelas Simples</h2>
+      <table border = 1>   <!--Não obrigatório porém deixa mais semantico / border é deprecated-->
+        <thead> <!--Indica as colunas da tabela-->
+          <tr>  <!--Indica uma linha -->
+            <th>Nome</th> <!--Indica o nome da coluna-->
+            <th colspan="2">Email</th> <!--Atributo mescla duas colunas pra exibição-->
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="2">Breno</td>  <!--Mescla duas linhas-->
+            <td>breno@gmail</td>
+            <td>breno@unifebe.com</td>
+          </tr>
+          <tr>  
+            <td>breno@gmail</td>  <!--Indica uma célula/dado/registro-->
+            <td>breno@unifebe.com</td>
+          </tr>
+          <tr>
+            <td>João</td>
+            <td>joao123@gmail</td>
+            <td>joao123@unifebe.com</td>
+          </tr>
+          <tr>
+            <td>Renato</td>
+            <td>renato@gmail</td>
+            <td>renato@unifebe.com</td>
+          </tr>
+          <tr>
+            <td>Elza</td>
+            <td>elza@gmail</td>
+            <td>elza@unifebe.com</td>
+          </tr>
+          <tr>
+            <td>Fabiana</td>
+            <td>fabiana@gmail</td>
+            <td>fabiana@unifebe.com</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <footer></footer>
+</body>
+
+</html>
