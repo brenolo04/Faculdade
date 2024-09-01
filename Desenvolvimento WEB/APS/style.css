@@ -1,0 +1,26 @@
+body{
+  font-family: 'Roboto Mono';
+  color: white;
+  background: black;
+}
+main {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+table {
+  /* border: 1px solid white; */
+  border-radius: 6px;
+}
+
+table th{
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+td {
+  padding: 0 10px 0 10px;
+  border-left: 1px dashed white;
+  border-right: 1px dashed white;
+  border-bottom: 1px dashed white;
+}
