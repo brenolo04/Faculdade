@@ -1,11 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulários</title>
 </head>
 <body>
-    
+    <form action="" method="post">
+        <fieldset>
+            <legend>Meu primeiro formulário</legend>
+            <h2>Usuário</h2>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" value="@gmail.com" required>
+            <br>
+            <br>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha">
+            <br>
+            <br>
+            <hr>
+            <div>
+                <h2>Sexo</h2>
+                <input type="radio" id="gen-masculino" name="genero">
+                <label for="gen-masculino" name="genero">Masculino</label>
+                <br>
+                <input type="radio" id="gen-feminino" name="genero">
+                <label for="gen-feminino" name="genero">Feminino</label>
+                <br>
+                <input type="radio" id="gen-indefinido" name="genero">
+                <label for="gen-indefinido" name="genero">Não quero informar</label>
+            </div>
+            <hr>
+            <h2>Lista de compras</h2>
+            <input type="checkbox" name="feijao" id="ali-feijao">
+            <label for="ali-feijao">Feijão</label>
+            <br>
+            <input type="checkbox" name="atum" id="ali-atum">
+            <label for="ali-feijao">Atum</label>
+            <br>
+            <input type="checkbox" name="feijao" id="ali-batata">
+            <label for="ali-feijao">Batata</label>
+            <hr>
+            <select name="" id="">
+                <optgroup>Sul</optgroup>
+            </select>
+            <hr>
+            <label for="feedback">Texto</label>
+            <textarea name="feedback" 
+                      cols="30"
+                      rows="10"
+
+            ></textarea>
+            <hr>
+            <input list="browsers">
+            <datalist id="browsers">
+                <option value="Chrome">
+                <option value="Firefox">
+                <option value="Edge">
+            </datalist>
+            <input type="reset">
+            <input type="submit">
+
+            
+        </fieldset>
+    </form>
 </body>
 </html>
